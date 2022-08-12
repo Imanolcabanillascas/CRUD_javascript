@@ -43,7 +43,7 @@ function validarEntero(numero) {
     console.log("no es numero");
   } else {
     //En caso contrario (Si era un número) devuelvo el valor
-    if (email.value === "", names.value === "", age.value === "") {
+    if (email.value === ""|| names.value === "" || age.value === "") {
       alert("agregar datos");
 
       console.log("falló");
